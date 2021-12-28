@@ -1,0 +1,14 @@
+
+    https://dev.to/abhisheknaiidu/10-react-hooks-explained-3ino
+
+    https://strapi.io/blog/how-to-build-an-ecommerce-application-using-react-mongo-db-strapi-and-socket-io?utm_source=devto&utm_medium=post&utm_campaign=blog
+
+    https://dev.to/ishakmohmed/react-hooks-usecontext-useeffect-usestate-useref-summarized-like-crazy-short-concise-article-254k
+
+    https://www.telerik.com/kendo-react-ui/react-hooks-guide/#hooks-for-state-and-effects
+
+    https://serverless-stack.com/chapters/understanding-react-hooks.html
+
+    https://www.freecodecamp.org/news/introduction-to-react-hooks/
+
+    https://www.morean.co/2021/08/06/everything-you-need-to-know-about-react-hooks-2/

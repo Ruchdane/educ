@@ -21,7 +21,7 @@ function App() {
             <Layout>
                 <NavBar/>
                 <Routes>
-                  <Route exact path="/" element={<Home/>}/>
+                  <Route exact path="/educ" element={<Home/>}/>
                 </Routes>
             </Layout>    
         </Router>
