@@ -1,0 +1,54 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    padding: 2rem 0 0rem 0;
+    background-color: white; 
+
+}
+
+.header-img-container{
+     width: 100%;
+     position: relative;
+     bottom: 60px; 
+}
+
+
+
+.header-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header-title{
+    color: #00a149;
+    font-size: 2rem;
+    font-weight: 800px;
+}
+
+.header-p{
+    font-size: 1rem;
+}
+
+.header-content-price{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-content-price{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-content: center;
+    }
+    
+
+}
