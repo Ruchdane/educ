@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 //ant design
 import { Menu, Button, Input } from 'antd';
@@ -44,7 +45,7 @@ class NavBar extends React.Component {
         </Menu.Item>
         
         <Menu.Item key="espace etudiant">
-          Espace etudiant
+          <Link to="/students"> Espace etudiant </Link>
         </Menu.Item>
         <Menu.Item key="connexion">
          Connexion

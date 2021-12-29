@@ -1,0 +1,11 @@
+.bg-purple{
+	background-color: purple;
+}
+.bg-purple
+.ant-breadcrumb-separator{
+	color:white;
+}
+.sticky{
+	top: 2rem;
+	position: sticky;
+}
