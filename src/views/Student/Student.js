@@ -7,6 +7,7 @@ import { faEdit, faComment, faCommentAlt, faCommentSlash, faBell, faBookReader/*
 import MessagesNonLues from './MessagesNonLues';
 import MessagesSansReponse from './MessagesSansReponse';
 import SujetActif from './SujetActif';
+import PosterSujet from './PosterSujet';
 import './Student.css'
 const { Title } = Typography;
 const { Content, Sider } = Layout;
@@ -14,7 +15,7 @@ const Tabs = [
 	{
 		nom: "Poster un sujet",
 		link:"messages/repondre",
-		View: SujetActif,
+		View: PosterSujet,
 		title: <>Poster un sujet</>,
 		icon: faEdit
 	},
