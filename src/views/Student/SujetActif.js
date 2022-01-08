@@ -1,7 +1,6 @@
 import React from 'react';
 import { Table, Card, } from 'antd';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReceipt } from '@fortawesome/free-solid-svg-icons';
+import {BarsOutlined} from '@ant-design/icons'
 import './Student.css'
 const columns = [
 	{
@@ -9,7 +8,7 @@ const columns = [
 		dataIndex: "auteur",
 		render: auteur => <div class="row">
 			<div class="col-2">
-				<FontAwesomeIcon icon={faReceipt} size="3x" />
+				<BarsOutlined style={{fontSize: '2rem'}}/>
 			</div>
 			<div class="col">{auteur.titre} <br />
 				Par <span class="fw-bold text-warning">{auteur.nom}</span> <br />

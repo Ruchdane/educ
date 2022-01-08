@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //css
 import 'antd/dist/antd.css';
-import './App.css';
+import './App.scss';
 
 
 //components
@@ -22,13 +22,15 @@ function App() {
                 <NavBar />
                 <Routes>
                     <Route exact path="/educ" element={<Home />} />
-                    <Route exact path="/students" element={<Student />} />
-                    {/* <Route exact path="/students/Repondre a un message" element={<Student />} />
-                    <Route exact path="/students/Sujet Actif" element={<Student />} />
-                    <Route exact path="/students/Messages Non Lues" element={<Student />} />
-                    <Route exact path="/students/Messages sans réponsee" element={<Student />} />
-                    <Route exact path="/students/Notifications" element={<Student />} />
-                    <Route exact path="/students/Mes cours" element={<Student />} /> */}
+                    <Route exact path="/students"  element={<Student current={0}/>} >
+                        
+                    </Route>
+                    <Route path="/students/messages/repondre" element={<Student current={0} />} />
+                    <Route path="/students/messages/actif" element={<Student current={1} />} />
+                    <Route path="/students/messages/non-lues" element={<Student current={2} />} />
+                    <Route path="/students/messages/sans-reponses" element={<Student current={3} />} />
+                    <Route path="/students/notifications" element={<Student current={4} />} />
+                    <Route path="/students/cour" element={<Student current={5} />} />
                 </Routes>
             </Layout>
         </Router>
